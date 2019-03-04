@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework.</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <nav class="navbar" id= "kimnav">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-brand"> 
+            <a href="index.html">Lattitude</a>
+        </ul>
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Max Temperature</a></li>
+              <li><a href="#">Humidity</a></li>
+              <li><a href="#">Cloudiness</a></li>
+              <li><a href="#">Wind Speed</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison_index.html">Comparison</a></li>
+          <li><a href="data_index .html">Data</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!--Containers for graphs on home page-->
+  <main>
+  <div class="container">
+        <!-- Visualizations section homepage-->  
+
+    <div class="col-md-10">
+      <div class ="box">
+        <h1>Comparison: Latitude vs X</h1>
+        <hr>
+        Click any plot to get an in-depth analysis.
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="vizbox">
+                    <center><h3>vs. Max Temperature</h3></center>
+                    <img class = "img-fluid-viz" src="assets/images/Fig1.png">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="vizbox">
+                    <h3><center>vs. Humidity Temperature</center></h3>
+                    <img class = "img-fluid-viz" src="assets/images/Fig2.png">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="vizbox">
+                    <h3><center>vs. Cloudiness Temperature</center></h3>
+                    <img class = "img-fluid-viz" src="assets/images/Fig3.png">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="vizbox">
+                    <h3><center>vs. Wind Speed Temperature</center></h3>
+                    <img class = "img-fluid-viz" src="assets/images/Fig4.png">
+                </div>
+            </div>
+          </div>
+          </div>
+    </div>
+  </div>
+  </div> 
+</body>
+    </div>
+</main>
+<footer class="page-footer font-small blue pt-4 fixed-bottom">
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+</footer>
+<!-- Footer homepage-->  
+</html>

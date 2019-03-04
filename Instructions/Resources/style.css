@@ -1,0 +1,75 @@
+
+
+main {
+  min-height: 100vh;
+  background:  rgb(237, 237, 237);
+}
+
+.vizbox {
+  min-height: 50px;
+  padding: 5px;
+  font-weight: 60;
+  color: rgb(3, 3, 3);
+  background: rgb(255, 255, 255);
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  min-height: 50px;
+  padding: 15px;
+  margin-top: 15px;
+  font-weight: 60;
+  color: rgb(3, 3, 3);
+  background: rgb(255, 255, 255);
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerbox{
+  background:rgb(22, 125, 125);
+  padding: 15px;
+  margin: 5px;
+}
+.gray {
+  background: rgb(255, 255, 255);
+}
+
+#kimnav{
+  margin-bottom: 0px;
+}
+
+.navbar-brand{
+  background: rgb(173, 234, 238);
+  padding: 5px 5px 5px 5px;
+  left: 15px;
+}
+
+.navbar-nav{
+  margin: 15px 15px 10px 10px;
+}
+
+h1{
+  margin-bottom: 30px;
+  color:rgb(22, 125, 125);
+  font-family: serif;
+  font-weight: 175;
+}
+
+h3{
+  color: rgb(22, 125, 125); 
+  font-family:serif; 
+  font-style: bold;
+  font-size:2.5;
+}
+.img-fluid-viz{
+  width: 100%
+}
+.img-fluid{
+  width: 50%
+}
+
+
+
+
+

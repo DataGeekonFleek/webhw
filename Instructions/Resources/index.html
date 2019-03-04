@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework.</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://www.ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/dropdown.js"></script>
+  <!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <nav class="navbar" id= "kimnav">
+      
+    
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">   
+       <ul class="nav navbar-brand"> 
+            <a href="#">Lattitude</a>
+        </ul>  
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Max Temperature</a></li>
+              <li><a href="#">Humidity</a></li>
+              <li><a href="#">Cloudiness</a></li>
+              <li><a href="#">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison_index.html">Comparison</a></li>
+          <li><a href="data_index .html">Data</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!--Containers for graphs on home page-->
+  <main>
+  <div class="container">
+    <div class="col-md-8">
+      <div class="box">
+        <h1>Summary: Latitude vs. X </h1>
+        <hr>
+        <p>
+          <img class = "img-fluid fig1home" src="assets/images/Fig1.png" style="float:left"> 
+          The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+          To accomplish this analysis, we first pulled dta from the OpenWeatherMap API 
+          to assemble a dataset on over 500 cities. 
+          <br> <br>
+          After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. 
+          Factors we looked aincluded temperature, cloudiness, wind speed, and humidity. 
+          This site provides the source descriptions of any trends and correlations witnessed. 
+        
+        </p>
+      </div>
+    </div>
+
+        <!-- Visualizations section homepage-->  
+
+    <div class="col-md-4">
+      <div class ="box">
+        <h1>Visualizations </h1>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3 col-md-6">
+                <div class="vizbox">
+                    <img class = "img-fluid-viz" src="assets/images/Fig1.png">
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-6">
+                <div class="vizbox">
+                    <img class = "img-fluid-viz" src="assets/images/Fig2.png">
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-6">
+                <div class="vizbox">
+                    <img class = "img-fluid-viz" src="assets/images/Fig3.png">
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-6">
+                <div class="vizbox">
+                    <img class = "img-fluid-viz" src="assets/images/Fig4.png">
+                </div>
+            </div>
+          </div>
+          </div>
+    </div>
+  </div>
+  </div> 
+</body>
+    </div>
+</main>
+<footer class="page-footer font-small fixed-bottom">
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    </div>
+</footer>
+<!-- Footer homepage-->  
+</html>
