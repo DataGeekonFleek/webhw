@@ -13,6 +13,11 @@ main {
   background: rgb(255, 255, 255);
   line-height: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.vizboxhilight{
+  border:1px solid hsl(176, 88%, 33%);
 }
 
 .box {
@@ -56,6 +61,7 @@ h1{
   font-weight: 175;
 }
 
+
 h3{
   color: rgb(22, 125, 125); 
   font-family:serif; 
@@ -68,6 +74,8 @@ h3{
 .img-fluid{
   width: 50%
 }
+
+
 
 
 
